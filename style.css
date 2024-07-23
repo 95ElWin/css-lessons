@@ -1,0 +1,15 @@
+.main > p {
+    color: red;
+}
+/* .main p {  // main-in icinde olan butun p-lere tesir edir
+    color: red;
+} */
+/* .main > p {  // yalniz main-in icinde olan p-lere tesir edir
+    color: red;
+} */
+/* .main ~ p {  // main-den sonra gelen butun p-lere tesir edir
+    color: red;
+} */
+/* .main + p {  // main-den sonra gelen birinci p-e tesir edir
+    color: red;
+} */
