@@ -1,68 +1,14 @@
-/* *{
-    color: red;
+*{
     margin: 0px;
     padding: 0px;
-} */
-.main ~ p {
-    color: red;
 }
-/* .main p {  // main-in icinde olan butun p-lere tesir edir
-    color: red;
-} */
-/* .main > p {  // yalniz main-in icinde olan p-lere tesir edir
-    color: red;
-} */
-/* .main ~ p {  // main-den sonra gelen butun p-lere tesir edir
-    color: red;
-} */
-/* .main + p {  // main-den sonra gelen birinci p-e tesir edir
-    color: red;
-} */
-/* a[href="http://fb.az"] {
-    color: green;
-} */
-/* a[href^="https"] { // evveli bununla baslayanlara tesir edir
-    color: green;
-} */
-/* a[href$="az"] { // sonu bununla qurtalanlara tesir edir
-    color: green;
-} */
-/* a[href*="l"] { // icinde bu olanlara tesir edir
-    color: green;
-}  */
-a[target="_blank"] { /* targetin _blank-i bu olanlara tesir edir */
-    color: green;
-} 
-/* ul li { //hamsina aiddir
-    color: red;
-} */
-/* ul li:first-child {
-    color: red;
-} */
-/* ul li:last-child {
-    color: red;
-} */
-/* ul li:nth-child(2) {
-    color: red;
-} */
-/* ul li:nth-child(odd) { //tekler
-    color: red;
-} */
-/* ul li:nth-child(even) { //cutler
-    color: red;
-} */
-/* ul li:nth-child(2n+1) { 
-    color: red;
-} */
-/* ul .list { 
-    color: red;
-} */
-/* ul.list { 
-    color: red;
-} */
-/* ul li:hover { 
- background-color: blue;
-} */
-.main:active { 
- background-color: blue;
+.main{
+    width: 60%;
+    height: 200px;
+    background-color: red;
+}
+.child{
+    width: 50%;
+    height: 100px;
+    background-color: blue;
 }
