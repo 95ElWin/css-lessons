@@ -1,0 +1,11 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 1200px;
+    height: 600px;
+    border: 2px solid;
+}
