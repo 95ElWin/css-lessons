@@ -1,11 +1,24 @@
-*{
-    margin: 0px auto;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px auto;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .parent {
-    width: 1200px;
-    height: 600px;
-    border: 2px solid;
+  width: 1200px;
+  min-height: 600px;
+  border: 2px solid;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  padding: 20px;
+}
+.parent article {
+  width: calc(100% / 3 - 10px);
+  height: 500px;
+  background: blue;
+}
+.parent article:nth-child(2) {
+  background: red;
 }
